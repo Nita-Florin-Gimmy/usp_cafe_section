@@ -1,0 +1,884 @@
+body
+{
+	margin: 0 auto;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+}
+header
+{
+	width: 100%;
+	height: 5vw;
+	background-color: #111318;
+	text-align: center;
+}
+header h1
+{
+	position: absolute;
+	width: 100%;
+	color: white;
+	font-size: 2vw;
+}
+.background
+{
+	width: 100%;
+	position: fixed;
+	opacity: 80%;
+}
+.wrapper
+{
+	margin-top: 0.7vw;
+	height: 43vw;
+	width: 50%;
+	max-width: 1000px;
+	background-color: black;
+	position: fixed;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	border-radius: 2%;
+	border: solid 0.5vw #DAA520;
+	background-color:rgba(0,0,0,.7);
+}
+.wrapper h1
+{
+	color: white;
+	font-size: 30px;
+	margin: 0;
+	margin-left: 2vw;
+	padding: 0;
+	margin-top: 1vw;
+}
+.wrapper p
+{
+	color: white;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	margin-left: 2vw;
+	padding-right: 2vw;
+	margin-top: 1vw;
+}
+.forums_bar
+{
+	margin-left: 5%;
+	width: 90%;
+	height: 2vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10% 10% 0% 0%;
+	border: solid 1px;
+	margin-top: 1vw;
+}
+.forums_bar h1
+{
+	color: white;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.5vw;
+	margin-left: 2vw;
+}
+#news
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#news p
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -1.6vw;
+	margin-top: 1.2vw;
+	font-size: 0.5vw;
+}
+#news i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#news a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 0.4vw;
+	font-size: 0.7vw;
+}
+#news .a1
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -10.7vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#news .a2
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -8.6vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#news .a3
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -6vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#news .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#news .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#news .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 13vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#news .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#games
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#games i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.3vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.2vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#games a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 0.4vw;
+	font-size: 0.7vw;
+}
+#games .a1
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -1.9vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .a2
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.6vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .a3
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.7vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .a4
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .a5
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .a6
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#games .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#games .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#games .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 9.6vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#games .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#movies
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#movies i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#movies a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 0.4vw;
+	font-size: 0.7vw;
+}
+#movies .a1
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -5.3vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#movies .a2
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -2.5vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#movies .a3
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 0.8vw;
+	font-size: 0.6vw;
+}
+#movies .a4
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -4.5vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#movies .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#movies .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#movies .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 10.4vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#movies .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#music
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#music i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#music a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 0.4vw;
+	font-size: 0.7vw;
+}
+#music .a1
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -1.7vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#music .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#music .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#music .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 20.6vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#music .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#social
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#social i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#social a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 0.4vw;
+	font-size: 0.7vw;
+}
+#social .a1
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: -1.7vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#social .a2
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#social .a3
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 1vw;
+	margin-top: 1.8vw;
+	font-size: 0.6vw;
+}
+#social .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#social .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#social .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 13vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#social .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#sports_bets
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color:rgba(17,19,24,.9);
+	border-radius: 10%;
+}
+#sports_bets i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#sports_bets a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 1vw;
+	font-size: 0.7vw;
+}
+#sports_bets .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#sports_bets .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#sports_bets .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 20.5vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#sports_bets .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
+#free_talk
+{
+	margin-left: 5%;
+	margin-top: 1.5vw;
+	width: 90%;
+	height: 3vw;
+	position: relative;
+	background-color: #111318;
+	border-radius: 10%;
+	background-color:rgba(17,19,24,.9S);
+}
+#free_talk i
+{
+	margin-left: 1%;
+	margin-top: 0.7vw;
+	position: relative;
+	border-radius: 10%;
+	color: black;
+	background-color: #b34700;
+	width: 1.5vw;
+	height: 1.2vw;
+	text-align: center;
+	padding: 0;
+	padding-top: 0.3vw;
+	border: none;
+	border-radius: 100%;
+	font-size: 1vw;
+	float: left;
+}
+#free_talk a
+{
+	text-decoration: none;
+	color: #d9d9d9;
+	padding: 0;
+	margin: 0;
+	float: left;
+	margin-left: 0.8vw;
+	margin-top: 1vw;
+	font-size: 0.7vw;
+}
+#free_talk .posts
+{
+	text-decoration: none;
+	color: white;
+	padding: 0;
+	margin: 0;
+	margin-top: 0.5vw;
+	font-size: 1vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+#free_talk .p_posts
+{
+	text-decoration: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	margin-top: 1.5vw;
+	font-size: 0.7vw;
+	margin-left: 17.5vw;
+	position: absolute;
+}
+#free_talk .logo
+{
+	text-decoration: none;
+	border: none;
+	color: #595959;
+	padding: 0;
+	margin: 0;
+	float: right;
+	text-align: center;
+	font-size: 0.7vw;
+	margin-left: 21vw;
+	margin-top: 1vw;
+	position: absolute;
+	
+}
+#free_talk .logo img
+{
+	width: 1.5vw;
+	height: 1.5vw;
+	border: solid 0.1vw black;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: -2vw;
+	margin-top: -0.3vw;
+}
